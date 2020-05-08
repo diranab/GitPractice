@@ -5,6 +5,8 @@
 #include <string>
 #include <sstream>
 
+#include "myClass.h"
+
 
 class readCSV
 {
@@ -132,6 +134,8 @@ void print_file(std::vector<std::pair<std::string, std::vector<std::string>>> da
 
 int main()
 {
+	myClass myClass1;
+	myClass1.print();
 	std::cout << "The is a list of assests\n\n";
 	print_file(read_csvFile("GitPractice\\input.csv"));
 	write_csvFile(read_csvFile("GitPractice\\input.csv"));
