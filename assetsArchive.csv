@@ -1,0 +1,16 @@
+AssetIDNumber,AssetName,AssetType,AssetLocation,UsedBy,AssetState
+IT43567,HC-Laptop-Miller,Computer,Room 366,Stephen Miller,In
+IT2349,HC-Desktop-Mills,Computer,Room 324,Laura M,in use
+IT298709,IT-FileServer,Computer,basement,Akin Abiola,in use
+P3567,HP-Color_Laser Frontdesk,Printer,basements,Ms. Betsy,in use
+P3455,Black and white Printer Boss,Printer,Library,David O,needs repair
+IT983456,HC-Laptp-Rick,Computer,FLOATING,Rick Astley,in use
+IT345219,HC-Desktop-1,Computer,storage,,in storage
+T0002,projector1,Audio/Video,Library,David O,In Use
+T0005,myWorkPC,Computer,Admin Building,Diran A,In Use
+T0006,Monitor1,Audio/Video,Theatre Room,Lolu A,In Storage
+T0022,Monitor10,Audio/Video,Theatre,Lolu Abiola,In Storage
+T0008,Monitor2,Audio/Video,IT Hub,,In Storage
+T0009,Samsung 65" ,Audio/Video,Chem Lab,Dr Abiola,In Use
+T0010,Projector3,Audio/Video,IT HUB,,In Storage
+T0011,Monitor4,Audio/Video,IT HUB,null,In Storage
