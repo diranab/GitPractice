@@ -84,6 +84,7 @@ void write_csvFile(std::vector<std::pair<std::string, std::vector<std::string>>>
 				outFile << data[i].first << ", ";
 		}
 
+		//write rest of data
 		for (auto i = 0; i < data[0].second.size(); i++)
 		{
 			for (auto j = 0; j < data.size(); j++)
@@ -94,8 +95,6 @@ void write_csvFile(std::vector<std::pair<std::string, std::vector<std::string>>>
 					outFile << data[j].second[i] << ",";
 			}
 		}
-
-
 		outFile.close();
 	}
 	else
@@ -138,4 +137,5 @@ int main()
 	write_csvFile(read_csvFile("GitPractice\\input.csv"));
 	
 
-	return 0;}
+	return 0;
+}
